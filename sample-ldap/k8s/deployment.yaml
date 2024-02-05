@@ -25,7 +25,7 @@ spec:
         resources: {}
         env:
           - name: PROXY_HOST
-            value: connectivity-proxy-ldap.kyma-system.svc.cluster.local
+            value: connectivity-proxy.kyma-system.svc.cluster.local
           - name: VIA_PROXY
             value: "true"
         envFrom:
